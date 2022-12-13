@@ -1,174 +1,563 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ChasquiFarma</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+    <title>CHASKIFARMA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-
 <body>
-    <header>
-        <nav>
-            <a href="/">Inicio</a>
-            <a href="/vistados">Mamá & bebé</a>
-            <a href="/vistatres">Bienestar</a>
-            <a href="/vistacuatro">Dermocosmetica</a>
-            <a href="/logout">Logout</a>
-        </nav>
-        <section class="textos-header">
-            <h1>ChasquiFarma tienda en linea</h1>
-            <h2>Productos de cuidado y limpieza personal</h2>
-        </section>
-        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-                style="height: 100%; width: 100%;">
-                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill: #fff;"></path>
-            </svg></div>
-    </header>
-    <main>
-        <section class="contenedor sobre-nosotros">
-            <h2 class="titulo">Sobre nosotros</h2>
-            <div class="contenedor-sobre-nosotros">
-                <img src="img/ilustracion2.svg" alt="" class="imagen-about-us">
-                <div class="contenido-textos">
-                    <h3></h3>
-                    <p>Nosotros estamos comprometidos con todos los peruanos y con su salud intentando mejorar tanto nuestros precios como nuestra empresa, 
-                        ser mejores cada dia es un reto que nosotros debemos asumir.</p>
+    
+<!-- header section starts  -->
 
-                    <p>Aqui encontraras los productos de la mejor calidad que existe en el mercado Peruano actualmente.</p>
+<header class="header">
 
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis voluptates repellat dolores tenetur minima nihil soluta itaque deserunt. 
-                        Veniam molestias nisi reprehenderit, officiis libero fugit quod quasi nesciunt rerum voluptatum?</p>
-                    
-                </div>
-            </div>
-        </section>
-        <section class="portafolio">
-            <div class="contenedor">
-                <h2 class="titulo">Ofertas</h2>
-                <div class="galeria-port">
-                    <div class="imagen-port">
-                        <img src="img/inka_web_regular_x2_Cuidado-adulto_inka_web_regular_x2_Cuidado-adulto_01.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/inka_web_regular_x2_Cuidado-adulto_inka_web_regular_x2_Cuidado-adulto_03.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/inka_web_regular_x3_Farmacia_inka_web_regular_x3_Farmacia_01.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/inka_web_regular_x3_Farmacia_inka_web_regular_x3_Farmacia_03.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/inka_web_regular_x3_Farmacia_inka_web_regular_x3_Farmacia_05.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/inka_web_regular_x3_Farmacia_inka_web_regular_x3_Farmacia_05.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/inka_web_regular_x3_Farmacia_inka_web_regular_x3_Farmacia_05.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/inka_web_regular_x3_Farmacia_inka_web_regular_x3_Farmacia_05.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="clientes contenedor">
-            <h2 class="titulo">Productos en tendencia</h2>
-            <div class="cards">
-                <div class="card">
-                    <img src="img/200089168_fotofondoblanco.webp" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Perfume de mujer Sweet Black</h4>
-                        <p>Perfume con aroma oriental dulce de máxima calidad y larga duración.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="img/unabaseserum3737.jpg" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Base Sérum Nude Me Una</h4>
-                        <p>Base serum que une acabado natural a una piel revitalizada</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="about-services">
-            <div class="contenedor">
-                <h2 class="titulo">Servicio que otorgamos</h2>
-                <div class="servicio-cont">
-                    <div class="servicio-ind">
-                        <img src="img/ilustracion1.svg" alt="">
-                        <h3>Ventas</h3>
-                        <p>Vendemos productos de cuidado y limpieza personal.</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/ilustracion4.svg" alt="">
-                        <h3>Atencion al cliente</h3>
-                        <p>Otorgamos atencion personalizada nuestros clientes para que se puedan ir satisfechos con su compra.</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/ilustracion3.svg" alt="">
-                        <h3>Web</h3>
-                        <p>Otorgamos un servicio 100% digital para que no tenga que salir de casa.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="contenedor-footer">
-            <div class="content-foo">
-                <h4>Phone</h4>
-                <p>912119023</p>
-            </div>
-            <div class="content-foo">
-                <h4>Email</h4>
-                <p>ChasquiFarma@gmail.com</p>
-            </div>
-            <div class="content-foo">
-                <h4>Ubicacion</h4>
-                <p>CUADRA 8-SJM</p>
+    <a href="#" class="logo">
+        <img src="images/farma.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#about">¿Quienes somos?</a>
+        <a href="#menu">Perfumes</a>
+        <a href="#BELLEZA">Belleza </a>
+        <a href="#MAMAYBEBE">Mamá & Bebé</a>
+        <a href="#vitaminas">Vitaminas & Suplementos</a>
+        <a href="#cuidado">Cuidado Personal</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-1.png" alt="">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99/-</div>
             </div>
         </div>
-        <h2 class="titulo-final">&copy; WinterC Design | Christopher Arcelles</h2>
-    </footer>
-</body>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-2.png" alt="">
+            <div class="content">
+                <h3>cart item 02</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-3.png" alt="">
+            <div class="content">
+                <h3>cart item 03</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-4.png" alt="">
+            <div class="content">
+                <h3>cart item 04</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+    </div>
 
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>CHASKIFARMA</h3>
+        <p>La sonrisa es la mejor medicina para el alma</p>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>¿Quienes</span> somos? </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/139237-especialistas-en-farmacia.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>¿Que nos hace diferentes a otras empresas?</h3>
+            <p>Nuestra pagina web trata sobre compra online de productos medicinales, hogareños y de uso cotidiano.</p>
+            <p>La función de esta pág. web es ofrecer productos de farmacia a un método diferente/moderno, y tiene el objetivo de producir seguridad y confidencialidad en las compras y en la hora de realizar pagos de manera digital.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+    <h1 class="heading"> <span>PERFUMES</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/asdsada.jpg" alt="">
+            <h3>tEau de Toilette Pacha Ibiza 24/7 for Women - Frasco 80 ML</h3>
+            <div class="price">S/ 90.00 <span>S/ 106.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/perfume1.jpg" alt="">
+            <h3>Natura Ekos Frescor Pitanga Preta Eau de Toilette</h3>
+            <div class="price">S/ 66.00 <span>S/ 88.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/perfume2.jpg" alt="">
+            <h3>eau de parfum masculino dom</h3>
+            <div class="price">S/ 93.10 <span>S/ 133.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/108218_1_24.jpg" alt="">
+            <h3>Essencial eau de parfum masculino mirra 100 ml</h3>
+            <div class="price">S/ 197.00 <span>S/ 230.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/perfume3.jpg" alt="">
+            <h3>Kaiak eau de toilette masculino oceano 100 ml</h3>
+            <div class="price">S/ 73.80 <span>S/ 123.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/wer.png" alt="">
+            <h3>Perfume Pacha Ibiza Queen Rose Edt - Frasco 80 ML</h3>
+            <div class="price">S/.83.00 <span>S/.120.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="menu" id="BELLEZA">
+
+    <h1 class="heading"> <span>BELLEZA</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/belleza.jpg" alt="">
+            <h3>Protector Solar Frezyderm Velvet Face Color SPF 50 x 50 ml</h3>
+            <div class="price">S/139.30 <span>S/189.30</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/bio.jpg" alt="">
+            <h3>Gel de Limpieza Bioderma Sebium Gel Moussant x 200 ml</h3>
+            <div class="price">S/98.20 <span>S/138.20</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/belleza2.jpg" alt="">
+            <h3>Protector Solar Umbrella Urban Emulsión SPF 50 x 50 g</h3>
+            <div class="price">S/84.50 <span>S/104.50</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/belleza3.jpg" alt="">
+            <h3>Gel Limpiador Eucerin Ph5 Syndet 400 ml</h3>
+            <div class="price">S/90.00 <span>S/120.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/belleza4.jpg" alt="">
+            <h3>Crema para Piel Sensible Bioderma Sensibio 40ml</h3>
+            <div class="price">S/114.00 <span>S/154.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/belleza5.jpg" alt="">
+            <h3>Fotoprotector Isdin Ultra Spot Prevent Fusion Fluid x 50ml</h3>
+            <div class="price">S/116.90 <span>S/196.90</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="menu" id="MAMAYBEBE">
+
+    <h1 class="heading"> MAMÁ <span>& BEBÉ</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/bb1.jpg" alt="">
+            <h3>Huggies Active Sec G x 58 Pañales</h3>
+            <div class="price">S/52.50 <span>S/55.50</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/bb2.png" alt="">
+            <h3>Leche Solar Photoderm Kid Lait SPF 50+ x 100ml</h3>
+            <div class="price">S/153.70 <span>S/173.70</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/aa.jpg" alt="">
+            <h3>Fotoprotector Isdin Pediatrico 50 - Frasco 50 ML</h3>
+            <div class="price">S/83.20 <span>S/103.20</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/bb3.jpg" alt="">
+            <h3>ITCHY BITSI V-Comb Aspiradora de Piojos y Liendres</h3>
+            <div class="price">S/372.00 <span>S/400.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/bb4.jpg" alt="">
+            <h3>Gel para Encías Vitis Baby x 30ml</h3>
+            <div class="price">S/40.20 <span>S/60.20</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/bb5.png" alt="">
+            <h3>Artroglucomin 8g X 30 sobres</h3>
+            <div class="price">S/171.90 <span>S/191.90</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="menu" id="vitaminas">
+
+    <h1 class="heading">VITAMINAS <span>& SUPLEMENTOS</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/ff.jpg" alt="">
+            <h3>Vitamina E Mason 400 IU x 100 Cápsulas Blandas</h3>
+            <div class="price">S/89.60 <span>S/109.60</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/vi1.jpg" alt="">
+            <h3>Alcachofa Vid Natur x 90 Cápsulas</h3>
+            <div class="price">S/23.00 <span>S/33.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/vi2.jpg" alt="">
+            <h3>Omega 3 Fish Oil Mason 1000 mg x 60 Cápsulas Blandas</h3>
+            <div class="price">S/73.20 <span>S/93.20</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/esnure.jpg" alt="">
+            <h3>Ensure Advance Chocolate x 400 g</h3>
+            <div class="price">S/55.90 <span>S/85.90</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/vi3.jpg" alt="">
+            <h3>Ultimate Omega Nordic Naturals x 60 Cápsulas Blandasv</h3>
+            <div class="price">S/116.00<span> S/166.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/vi4.jpg" alt="">
+            <h3>Vitamina C Inyectable Injektop 7.5 g/ 50 ml</h3>
+            <div class="price">S/82.20 <span>S/102.20</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="menu" id="cuidado">
+
+    <h1 class="heading">CUIDADO <span>PERSONAL</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/cc1.jpg" alt="">
+            <h3>Desodorante en Spray Nivea Black & White Toque de Seda x 150 ml</h3>
+            <div class="price">S/17.70 <span>S/20.70</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cc2.jpg" alt="">
+            <h3>Five Steel x 5 unidades</h3>
+            <div class="price">S/7.50 <span>S/10.50</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cc3.jpg" alt="">
+            <h3>Isana Talco 240 g + Medias de Regalo</h3>
+            <div class="price">S/14.50 <span>S/21.50</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cc4.jpg" alt="">
+            <h3>Acondicionador sedal Bomba Argán x 340 ml</h3>
+            <div class="price">S/11.50 <span>S/16.50</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cc5.jpg" alt="">
+            <h3>ACONDICIONADOR TIO NACHO HERBOLARIA X 415 ML</h3>
+            <div class="price">$S/26.90 <span>S/32.90</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cc6.jpg    " alt="">
+            <h3>Desodorante en Barra Dove Original x 50 gr</h3>
+            <div class="price">S/13.90 <span>S/19.90</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </div>
+
+</section>
+<!--
+<section class="products" id="products">
+
+    <h1 class="heading"> our <span>products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/product-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>fresh coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/product-2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>fresh coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/product-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>fresh coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+    </div>
+-->
+</section>
+<!-- review section starts  -->
+
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <div class="row">
+        <form action="">
+            <h3>Consultas</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="nombre">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="número">
+            </div>
+            <input type="submit" value="Contáctanos ahora" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- blogs section starts  -->
+<!-- 
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-1.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-2.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-3.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+-->
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+        <a href="#home">Inicio</a>
+        <a href="#about">¿Quienes somos?</a>
+        <a href="#menu">Perfumes</a>
+        <a href="#BELLEZA">Belleza </a>
+        <a href="#MAMAYBEBE">Mamá & Bebé</a>
+        <a href="#vitaminas">Vitaminas & Suplementos</a>
+        <a href="#cuidado">Cuidado Personal</a>
+    </div>
+
+    <div class="credit">created by <span>ChaskiFarma</span> | all rights reserved</div>
+
+</section>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
 </html>
+
+<!-- hay un qlo de comandos creyendo que lo reutilizaria, borralo nomas sino.  -->
